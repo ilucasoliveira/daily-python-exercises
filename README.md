@@ -47,4 +47,4 @@ Docker days build and run a container:
 
 ## About
 
-I'm a junior Python full-stack developer with a back-end focus, using this repository to build consistency and document my progress one day at a time.
+I'm a Python full-stack developer with a back-end focus, using this repository to build consistency and document my progress one day at a time.
