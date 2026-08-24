@@ -1,0 +1,16 @@
+{
+    "name": "Lucas de Oliveira",
+    "age": 23,
+    "skills": [
+        "python",
+        "redis",
+        "fastapi",
+        "sqlalquemy",
+        "html",
+        "css",
+        "javascript",
+        "docker",
+        "git",
+        "poetry"
+    ]
+}
