@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Cereal",
+        "price": 3.14,
+        "stock": 110
+    },
+    {
+        "name": "Hair Cream",
+        "price": 5.99,
+        "stock": 34
+    },
+    {
+        "name": "Dogs Food to small breeds",
+        "price": 10.99,
+        "stock": 50
+    }
+]
