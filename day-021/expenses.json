@@ -1,0 +1,17 @@
+[
+    {
+        "description": "Hair Cream",
+        "amount": 5.85,
+        "date": "29/08/2026"
+    },
+    {
+        "description": "Coca-cola",
+        "amount": 3.25,
+        "date": "29/08/2026"
+    },
+    {
+        "description": "Meat",
+        "amount": 25.8,
+        "date": "29/08/2026"
+    }
+]
