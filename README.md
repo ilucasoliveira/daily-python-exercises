@@ -11,6 +11,7 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 ## Topics covered
 
 ### Python fundamentals
+
 - **day-001** - Strings and slicing (`[start:stop:step]`, negative step, palindromes)
 - **day-002** - List basics and methods (`append`, `insert`, `remove`, indexing)
 - **day-003** - Dictionary basics (keys, values, updating, iterating with `.items()`)
@@ -21,12 +22,21 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-010** - `*args` and `**kwargs` (variable arguments) + review
 - **day-011** - Variable scope (local vs global)
 - **day-014** - Integrated review: comprehensions, `*args`, `**kwargs` and scope
+- **day-015** - Reading and writing text files (`with`, read/write/append modes)
+- **day-016** - Working with JSON (`json.dump` / `json.load`, preserving types)
+- **day-017** - Reading and writing CSV (`DictReader` / `DictWriter`)
+- **day-018** - Error handling with `try` / `except` (specific exceptions)
+- **day-019** - Working with dates and times (`datetime`, `strftime`, `timedelta`)
+- **day-020** - Modules and imports (splitting code across files)
+- **day-021** - Integrated review: an expense tracker combining JSON, datetime, error handling and modules
 
 ### FastAPI
+
 - **day-005** - First routes with GET and JSON responses
 - **day-012** - Path parameters and automatic type validation
 
 ### Docker
+
 - **day-006** - Dockerfile for a simple Python script
 - **day-013** - Dockerizing a FastAPI application (Poetry, `EXPOSE`, Uvicorn)
 
