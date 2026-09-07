@@ -11,7 +11,6 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 ## Topics covered
 
 ### Python fundamentals
-
 - **day-001** - Strings and slicing (`[start:stop:step]`, negative step, palindromes)
 - **day-002** - List basics and methods (`append`, `insert`, `remove`, indexing)
 - **day-003** - Dictionary basics (keys, values, updating, iterating with `.items()`)
@@ -29,16 +28,22 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-019** - Working with dates and times (`datetime`, `strftime`, `timedelta`)
 - **day-020** - Modules and imports (splitting code across files)
 - **day-021** - Integrated review: an expense tracker combining JSON, datetime, error handling and modules
+- **day-022** - Object-oriented programming: classes, objects, `__init__`, `self`
+- **day-023** - Inheritance and `super()` (plus method overriding and polymorphism)
+- **day-026** - Generators and `yield` (lazy evaluation, generator pipelines)
+- **day-027** - Decorators (wrapping functions with `*args` / `**kwargs`)
+- **day-028** - Integrated review: an inventory system combining OOP, generators and decorators
+- **day-029** - Context managers (`@contextmanager`, `yield`, `try` / `finally`)
 
 ### FastAPI
-
 - **day-005** - First routes with GET and JSON responses
 - **day-012** - Path parameters and automatic type validation
+- **day-024** - POST requests and data validation with Pydantic (`BaseModel`)
 
 ### Docker
-
 - **day-006** - Dockerfile for a simple Python script
 - **day-013** - Dockerizing a FastAPI application (Poetry, `EXPOSE`, Uvicorn)
+- **day-025** - Docker Compose with two services (FastAPI + Redis)
 
 ## How to run
 
@@ -54,6 +59,10 @@ Docker days build and run a container:
 
     docker build -t day006 .
     docker run day006
+
+Docker Compose days start every service together:
+
+    docker compose up --build
 
 ## About
 
