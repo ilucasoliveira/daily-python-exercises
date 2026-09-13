@@ -11,6 +11,7 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 ## Topics covered
 
 ### Python fundamentals
+
 - **day-001** - Strings and slicing (`[start:stop:step]`, negative step, palindromes)
 - **day-002** - List basics and methods (`append`, `insert`, `remove`, indexing)
 - **day-003** - Dictionary basics (keys, values, updating, iterating with `.items()`)
@@ -34,13 +35,25 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-027** - Decorators (wrapping functions with `*args` / `**kwargs`)
 - **day-028** - Integrated review: an inventory system combining OOP, generators and decorators
 - **day-029** - Context managers (`@contextmanager`, `yield`, `try` / `finally`)
+- **day-030** - Type hints (parameters, returns, `list[]` / `dict[]`, `Optional`)
+- **day-031** - Advanced type hints (`Union`, type aliases, `Callable`)
+- **day-036** - Consuming external APIs with `requests` (status codes, JSON, error handling)
+
+### Testing
+
+- **day-032** - First tests with pytest (`assert`, test discovery, edge cases)
+- **day-033** - Testing exceptions (`pytest.raises`, `raise`) and parametrized tests
+- **day-034** - Fixtures and testing classes (setup/teardown with `yield`)
+- **day-035** - Integrated: a typed FastAPI app tested with pytest and `TestClient`
 
 ### FastAPI
+
 - **day-005** - First routes with GET and JSON responses
 - **day-012** - Path parameters and automatic type validation
 - **day-024** - POST requests and data validation with Pydantic (`BaseModel`)
 
 ### Docker
+
 - **day-006** - Dockerfile for a simple Python script
 - **day-013** - Dockerizing a FastAPI application (Poetry, `EXPOSE`, Uvicorn)
 - **day-025** - Docker Compose with two services (FastAPI + Redis)
@@ -50,6 +63,10 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 Most days are plain Python and run directly:
 
     python day-001/main.py
+
+Test days run with pytest from inside the day's folder:
+
+    pytest -v
 
 FastAPI days run with the development server from inside the day's folder:
 
