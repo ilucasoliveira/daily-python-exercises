@@ -1,0 +1,19 @@
+[project]
+name = "day-039"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Lucas",email = "lucasdeoliveira937@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard] (>=0.141.1,<0.142.0)",
+    "python-dotenv (>=1.2.3,<2.0.0)",
+    "redis (>=8.1.0,<9.0.0)",
+    "requests (>=2.34.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
