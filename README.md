@@ -6,7 +6,7 @@ Daily hands-on exercises to sharpen my Python fundamentals and back-end skills. 
 
 Each day lives in its own folder (`day-001`, `day-002`, and so on). A day is self-contained: enter the folder and run its main file. Review days revisit earlier topics and combine them into a single, larger exercise.
 
-The weekly rhythm mixes Python fundamentals with practical back-end tools: several days of core Python, then FastAPI, Docker, and a review day that ties the week together.
+The weekly rhythm mixes Python fundamentals with practical back-end tools: several days of core Python, then FastAPI, Docker, databases, and a review day that ties the week together.
 
 ## Topics covered
 
@@ -38,6 +38,8 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-030** - Type hints (parameters, returns, `list[]` / `dict[]`, `Optional`)
 - **day-031** - Advanced type hints (`Union`, type aliases, `Callable`)
 - **day-036** - Consuming external APIs with `requests` (status codes, JSON, error handling)
+- **day-037** - Requests with POST, headers and query params
+- **day-038** - Environment variables with `.env` (`python-dotenv`, keeping secrets out of git)
 
 ### Testing
 
@@ -46,17 +48,27 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-034** - Fixtures and testing classes (setup/teardown with `yield`)
 - **day-035** - Integrated: a typed FastAPI app tested with pytest and `TestClient`
 
+### Databases (SQLAlchemy)
+
+- **day-041** - First steps with the SQLAlchemy ORM (models, engine, insert and query)
+- **day-042** - Full CRUD (create, read, update, delete) with separate functions
+- **day-043** - Relationships (one-to-many with `ForeignKey` and `relationship`, cascade delete)
+
 ### FastAPI
 
 - **day-005** - First routes with GET and JSON responses
 - **day-012** - Path parameters and automatic type validation
 - **day-024** - POST requests and data validation with Pydantic (`BaseModel`)
+- **day-044** - FastAPI with SQLAlchemy: database-backed CRUD, `Depends` and dependency injection
+- **day-046** - Integrated review: a blog API with related authors and posts (relationships, cascade)
 
 ### Docker
 
 - **day-006** - Dockerfile for a simple Python script
 - **day-013** - Dockerizing a FastAPI application (Poetry, `EXPOSE`, Uvicorn)
 - **day-025** - Docker Compose with two services (FastAPI + Redis)
+- **day-039** - Redis as a cache (cache-aside pattern with TTL)
+- **day-045** - Dockerized FastAPI + PostgreSQL with Compose (volumes, healthcheck, env vars)
 
 ## How to run
 
