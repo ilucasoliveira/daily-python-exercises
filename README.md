@@ -1,5 +1,7 @@
 # Daily Python Exercises
 
+![Tests](https://github.com/ilucasoliveira/daily-python-exercises/actions/workflows/tests.yml/badge.svg)
+
 Daily hands-on exercises to sharpen my Python fundamentals and back-end skills. The goal is one exercise per day, each small enough to finish in 20 to 40 minutes, with at least one commit to keep a steady learning habit.
 
 ## How it works
@@ -40,6 +42,7 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-036** - Consuming external APIs with `requests` (status codes, JSON, error handling)
 - **day-037** - Requests with POST, headers and query params
 - **day-038** - Environment variables with `.env` (`python-dotenv`, keeping secrets out of git)
+- **day-059** - Logging (levels, `basicConfig`, structured log messages)
 
 ### Testing
 
@@ -62,6 +65,22 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-044** - FastAPI with SQLAlchemy: database-backed CRUD, `Depends` and dependency injection
 - **day-046** - Integrated review: a blog API with related authors and posts (relationships, cascade)
 
+### Authentication & Security
+
+- **day-047** - Password hashing with bcrypt (salting, never storing plain text)
+- **day-048** - JSON Web Tokens with PyJWT (`encode` / `decode`, `sub` / `exp`, HS256)
+- **day-049** - Full auth API: register, login with OAuth2, protected routes with `Depends`
+- **day-050** - Authentication + authorization: a notes API where each user only reaches their own data (ownership checks, 403)
+
+### Async / Concurrency
+
+- **day-051** - `async` / `await` fundamentals (`asyncio.gather`, sync vs async)
+- **day-052** - Async FastAPI consuming external APIs with `httpx` (parallel requests with `gather`)
+- **day-053** - Background tasks with Celery and Redis (`.delay()`, workers, retries)
+- **day-054** - Celery integrated with FastAPI (dispatch a task, poll its result by id)
+- **day-056** - WebSockets (real-time connection, `accept`, receive / send loop)
+- **day-057** - WebSocket broadcast (a connection manager for multiple clients)
+
 ### Docker
 
 - **day-006** - Dockerfile for a simple Python script
@@ -69,6 +88,14 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-025** - Docker Compose with two services (FastAPI + Redis)
 - **day-039** - Redis as a cache (cache-aside pattern with TTL)
 - **day-045** - Dockerized FastAPI + PostgreSQL with Compose (volumes, healthcheck, env vars)
+
+### CI/CD
+
+- **day-058** - Continuous integration with GitHub Actions (running pytest automatically on every push)
+
+## Continuous integration
+
+Every push runs the test suite automatically through GitHub Actions, across the pytest days (`day-032` to `day-034`). The badge at the top reflects the current status.
 
 ## How to run
 
