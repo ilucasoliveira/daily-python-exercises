@@ -24,4 +24,7 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
     - name: Run tests
-      run: pytest day-032 day-033 day-034
+      run: |
+          pytest day-032
+          pytest day-033
+          pytest day-034
