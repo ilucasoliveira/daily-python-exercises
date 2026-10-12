@@ -2,9 +2,9 @@ import logging
 from kafka import KafkaConsumer
 
 logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
+logging.getLogger("kafka").setLevel(logging.WARNING)
 
 logger = logging.getLogger()
 
