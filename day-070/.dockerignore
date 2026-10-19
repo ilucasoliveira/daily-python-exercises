@@ -1,0 +1,7 @@
+# O "COPY . ." copiaria tudo. O .env tem senhas: dentro da imagem, qualquer pessoa
+# com acesso a ela conseguiria lê-las. No container, as variáveis vêm do compose.
+.env
+__pycache__/
+*.pyc
+.venv/
+.vscode/
