@@ -78,8 +78,23 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-052** - Async FastAPI consuming external APIs with `httpx` (parallel requests with `gather`)
 - **day-053** - Background tasks with Celery and Redis (`.delay()`, workers, retries)
 - **day-054** - Celery integrated with FastAPI (dispatch a task, poll its result by id)
+- **day-055** - Paper practice: `async` / `await` and Celery review
 - **day-056** - WebSockets (real-time connection, `accept`, receive / send loop)
 - **day-057** - WebSocket broadcast (a connection manager for multiple clients)
+- **day-060** - WebSocket chat with an HTML client, plus a logging review
+- **day-061** - Integrated review: the WebSocket chat rebuilt from memory, logging every event with the connected-client count
+
+### Messaging (Apache Kafka)
+
+- **day-062** - First Kafka producer and consumer, with the broker running in Docker Compose
+- **day-063** - Producer sending a batch of messages, consumer counting them, `auto_offset_reset`
+- **day-064** - Consumer groups: offset commit, splitting work inside a group and failover
+- **day-065** - FastAPI publishing orders to Kafka, consumed by independent stock and email services
+- **day-066** - Idempotent stock consumer using an `order_id` per order
+- **day-067** - Durable idempotency with a PostgreSQL unique key (`IntegrityError` on duplicates)
+- **day-068** - Stock update and processed-order record in a single database transaction
+- **day-069** - Internal and external Kafka listeners (`KAFKA_ADVERTISED_LISTENERS`) and kafka-ui
+- **day-070** - Stock consumer running as a Compose service through the internal listener (config from env vars, `.dockerignore`, `restart`)
 
 ### Docker
 
@@ -87,6 +102,7 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-013** - Dockerizing a FastAPI application (Poetry, `EXPOSE`, Uvicorn)
 - **day-025** - Docker Compose with two services (FastAPI + Redis)
 - **day-039** - Redis as a cache (cache-aside pattern with TTL)
+- **day-040** - Integrated review: GitHub user lookup with `requests`, Redis cache-aside and error handling (errors are never cached)
 - **day-045** - Dockerized FastAPI + PostgreSQL with Compose (volumes, healthcheck, env vars)
 
 ### CI/CD
@@ -119,6 +135,11 @@ Docker days build and run a container:
 Docker Compose days start every service together:
 
     docker compose up --build
+
+Kafka days start the broker with Docker Compose, then run the producer and consumers from inside the day's folder (days with a database also need a `.env` based on `.env.example`):
+
+    docker compose up -d
+    python stock_service.py
 
 ## About
 
