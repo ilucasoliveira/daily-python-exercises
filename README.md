@@ -14,105 +14,105 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 
 ### Python fundamentals
 
-- **day-001** - Strings and slicing (`[start:stop:step]`, negative step, palindromes)
-- **day-002** - List basics and methods (`append`, `insert`, `remove`, indexing)
-- **day-003** - Dictionary basics (keys, values, updating, iterating with `.items()`)
-- **day-004** - Sets and operations (deduplication, intersection, union)
-- **day-007** - Refactoring into reusable functions (`return` vs `print`) + integrated review
-- **day-008** - List comprehensions (transforms and filters)
-- **day-009** - Dict comprehensions (key/value transforms with filters)
-- **day-010** - `*args` and `**kwargs` (variable arguments) + review
-- **day-011** - Variable scope (local vs global)
-- **day-014** - Integrated review: comprehensions, `*args`, `**kwargs` and scope
-- **day-015** - Reading and writing text files (`with`, read/write/append modes)
-- **day-016** - Working with JSON (`json.dump` / `json.load`, preserving types)
-- **day-017** - Reading and writing CSV (`DictReader` / `DictWriter`)
-- **day-018** - Error handling with `try` / `except` (specific exceptions)
-- **day-019** - Working with dates and times (`datetime`, `strftime`, `timedelta`)
-- **day-020** - Modules and imports (splitting code across files)
-- **day-021** - Integrated review: an expense tracker combining JSON, datetime, error handling and modules
-- **day-022** - Object-oriented programming: classes, objects, `__init__`, `self`
-- **day-023** - Inheritance and `super()` (plus method overriding and polymorphism)
-- **day-026** - Generators and `yield` (lazy evaluation, generator pipelines)
-- **day-027** - Decorators (wrapping functions with `*args` / `**kwargs`)
-- **day-028** - Integrated review: an inventory system combining OOP, generators and decorators
-- **day-029** - Context managers (`@contextmanager`, `yield`, `try` / `finally`)
-- **day-030** - Type hints (parameters, returns, `list[]` / `dict[]`, `Optional`)
-- **day-031** - Advanced type hints (`Union`, type aliases, `Callable`)
-- **day-036** - Consuming external APIs with `requests` (status codes, JSON, error handling)
-- **day-037** - Requests with POST, headers and query params
-- **day-038** - Environment variables with `.env` (`python-dotenv`, keeping secrets out of git)
-- **day-059** - Logging (levels, `basicConfig`, structured log messages)
+- **[day-001](day-001)** - Strings and slicing (`[start:stop:step]`, negative step, palindromes)
+- **[day-002](day-002)** - List basics and methods (`append`, `insert`, `remove`, indexing)
+- **[day-003](day-003)** - Dictionary basics (keys, values, updating, iterating with `.items()`)
+- **[day-004](day-004)** - Sets and operations (deduplication, intersection, union)
+- **[day-007](day-007)** - Refactoring into reusable functions (`return` vs `print`) + integrated review
+- **[day-008](day-008)** - List comprehensions (transforms and filters)
+- **[day-009](day-009)** - Dict comprehensions (key/value transforms with filters)
+- **[day-010](day-010)** - `*args` and `**kwargs` (variable arguments) + review
+- **[day-011](day-011)** - Variable scope (local vs global)
+- **[day-014](day-014)** - Integrated review: comprehensions, `*args`, `**kwargs` and scope
+- **[day-015](day-015)** - Reading and writing text files (`with`, read/write/append modes)
+- **[day-016](day-016)** - Working with JSON (`json.dump` / `json.load`, preserving types)
+- **[day-017](day-017)** - Reading and writing CSV (`DictReader` / `DictWriter`)
+- **[day-018](day-018)** - Error handling with `try` / `except` (specific exceptions)
+- **[day-019](day-019)** - Working with dates and times (`datetime`, `strftime`, `timedelta`)
+- **[day-020](day-020)** - Modules and imports (splitting code across files)
+- **[day-021](day-021)** - Integrated review: an expense tracker combining JSON, datetime, error handling and modules
+- **[day-022](day-022)** - Object-oriented programming: classes, objects, `__init__`, `self`
+- **[day-023](day-023)** - Inheritance and `super()` (plus method overriding and polymorphism)
+- **[day-026](day-026)** - Generators and `yield` (lazy evaluation, generator pipelines)
+- **[day-027](day-027)** - Decorators (wrapping functions with `*args` / `**kwargs`)
+- **[day-028](day-028)** - Integrated review: an inventory system combining OOP, generators and decorators
+- **[day-029](day-029)** - Context managers (`@contextmanager`, `yield`, `try` / `finally`)
+- **[day-030](day-030)** - Type hints (parameters, returns, `list[]` / `dict[]`, `Optional`)
+- **[day-031](day-031)** - Advanced type hints (`Union`, type aliases, `Callable`)
+- **[day-036](day-036)** - Consuming external APIs with `requests` (status codes, JSON, error handling)
+- **[day-037](day-037)** - Requests with POST, headers and query params
+- **[day-038](day-038)** - Environment variables with `.env` (`python-dotenv`, keeping secrets out of git)
+- **[day-059](day-059)** - Logging (levels, `basicConfig`, structured log messages)
 
 ### Testing
 
-- **day-032** - First tests with pytest (`assert`, test discovery, edge cases)
-- **day-033** - Testing exceptions (`pytest.raises`, `raise`) and parametrized tests
-- **day-034** - Fixtures and testing classes (setup/teardown with `yield`)
-- **day-035** - Integrated: a typed FastAPI app tested with pytest and `TestClient`
+- **[day-032](day-032)** - First tests with pytest (`assert`, test discovery, edge cases)
+- **[day-033](day-033)** - Testing exceptions (`pytest.raises`, `raise`) and parametrized tests
+- **[day-034](day-034)** - Fixtures and testing classes (setup/teardown with `yield`)
+- **[day-035](day-035)** - Integrated: a typed FastAPI app tested with pytest and `TestClient`
 
 ### Databases (SQLAlchemy)
 
-- **day-041** - First steps with the SQLAlchemy ORM (models, engine, insert and query)
-- **day-042** - Full CRUD (create, read, update, delete) with separate functions
-- **day-043** - Relationships (one-to-many with `ForeignKey` and `relationship`, cascade delete)
+- **[day-041](day-041)** - First steps with the SQLAlchemy ORM (models, engine, insert and query)
+- **[day-042](day-042)** - Full CRUD (create, read, update, delete) with separate functions
+- **[day-043](day-043)** - Relationships (one-to-many with `ForeignKey` and `relationship`, cascade delete)
 
 ### FastAPI
 
-- **day-005** - First routes with GET and JSON responses
-- **day-012** - Path parameters and automatic type validation
-- **day-024** - POST requests and data validation with Pydantic (`BaseModel`)
-- **day-044** - FastAPI with SQLAlchemy: database-backed CRUD, `Depends` and dependency injection
-- **day-046** - Integrated review: a blog API with related authors and posts (relationships, cascade)
+- **[day-005](day-005)** - First routes with GET and JSON responses
+- **[day-012](day-012)** - Path parameters and automatic type validation
+- **[day-024](day-024)** - POST requests and data validation with Pydantic (`BaseModel`)
+- **[day-044](day-044)** - FastAPI with SQLAlchemy: database-backed CRUD, `Depends` and dependency injection
+- **[day-046](day-046)** - Integrated review: a blog API with related authors and posts (relationships, cascade)
 
 ### Authentication & Security
 
-- **day-047** - Password hashing with bcrypt (salting, never storing plain text)
-- **day-048** - JSON Web Tokens with PyJWT (`encode` / `decode`, `sub` / `exp`, HS256)
-- **day-049** - Full auth API: register, login with OAuth2, protected routes with `Depends`
-- **day-050** - Authentication + authorization: a notes API where each user only reaches their own data (ownership checks, 403)
+- **[day-047](day-047)** - Password hashing with bcrypt (salting, never storing plain text)
+- **[day-048](day-048)** - JSON Web Tokens with PyJWT (`encode` / `decode`, `sub` / `exp`, HS256)
+- **[day-049](day-049)** - Full auth API: register, login with OAuth2, protected routes with `Depends`
+- **[day-050](day-050)** - Authentication + authorization: a notes API where each user only reaches their own data (ownership checks, 403)
 
 ### Async / Concurrency
 
-- **day-051** - `async` / `await` fundamentals (`asyncio.gather`, sync vs async)
-- **day-052** - Async FastAPI consuming external APIs with `httpx` (parallel requests with `gather`)
-- **day-053** - Background tasks with Celery and Redis (`.delay()`, workers, retries)
-- **day-054** - Celery integrated with FastAPI (dispatch a task, poll its result by id)
-- **day-055** - Paper practice: `async` / `await` and Celery review
-- **day-056** - WebSockets (real-time connection, `accept`, receive / send loop)
-- **day-057** - WebSocket broadcast (a connection manager for multiple clients)
-- **day-060** - WebSocket chat with an HTML client, plus a logging review
-- **day-061** - Integrated review: the WebSocket chat rebuilt from memory, logging every event with the connected-client count
+- **[day-051](day-051)** - `async` / `await` fundamentals (`asyncio.gather`, sync vs async)
+- **[day-052](day-052)** - Async FastAPI consuming external APIs with `httpx` (parallel requests with `gather`)
+- **[day-053](day-053)** - Background tasks with Celery and Redis (`.delay()`, workers, retries)
+- **[day-054](day-054)** - Celery integrated with FastAPI (dispatch a task, poll its result by id)
+- **[day-055](day-055)** - Paper practice: `async` / `await` and Celery review
+- **[day-056](day-056)** - WebSockets (real-time connection, `accept`, receive / send loop)
+- **[day-057](day-057)** - WebSocket broadcast (a connection manager for multiple clients)
+- **[day-060](day-060)** - WebSocket chat with an HTML client, plus a logging review
+- **[day-061](day-061)** - Integrated review: the WebSocket chat rebuilt from memory, logging every event with the connected-client count
 
 ### Messaging (Apache Kafka)
 
-- **day-062** - First Kafka producer and consumer, with the broker running in Docker Compose
-- **day-063** - Producer sending a batch of messages, consumer counting them, `auto_offset_reset`
-- **day-064** - Consumer groups: offset commit, splitting work inside a group and failover
-- **day-065** - FastAPI publishing orders to Kafka, consumed by independent stock and email services
-- **day-066** - Idempotent stock consumer using an `order_id` per order
-- **day-067** - Durable idempotency with a PostgreSQL unique key (`IntegrityError` on duplicates)
-- **day-068** - Stock update and processed-order record in a single database transaction
-- **day-069** - Internal and external Kafka listeners (`KAFKA_ADVERTISED_LISTENERS`) and kafka-ui
-- **day-070** - Stock consumer running as a Compose service through the internal listener (config from env vars, `.dockerignore`, `restart`)
-- **day-071** - Integrated review: the Kafka order pipeline rebuilt from memory (FastAPI producer, idempotent stock consumer, PostgreSQL unique key in a single transaction)
+- **[day-062](day-062)** - First Kafka producer and consumer, with the broker running in Docker Compose
+- **[day-063](day-063)** - Producer sending a batch of messages, consumer counting them, `auto_offset_reset`
+- **[day-064](day-064)** - Consumer groups: offset commit, splitting work inside a group and failover
+- **[day-065](day-065)** - FastAPI publishing orders to Kafka, consumed by independent stock and email services
+- **[day-066](day-066)** - Idempotent stock consumer using an `order_id` per order
+- **[day-067](day-067)** - Durable idempotency with a PostgreSQL unique key (`IntegrityError` on duplicates)
+- **[day-068](day-068)** - Stock update and processed-order record in a single database transaction
+- **[day-069](day-069)** - Internal and external Kafka listeners (`KAFKA_ADVERTISED_LISTENERS`) and kafka-ui
+- **[day-070](day-070)** - Stock consumer running as a Compose service through the internal listener (config from env vars, `.dockerignore`, `restart`)
+- **[day-071](day-071)** - Integrated review: the Kafka order pipeline rebuilt from memory (FastAPI producer, idempotent stock consumer, PostgreSQL unique key in a single transaction)
 
 ### Logging & Search (ELK Stack)
 
-- **day-072** - Elasticsearch and Kibana in Docker Compose (pinned version, security off for local dev), indexing and searching a document in Dev Tools and Discover
+- **[day-072](day-072)** - Elasticsearch and Kibana in Docker Compose (pinned version, security off for local dev), indexing and searching a document in Dev Tools and Discover
 
 ### Docker
 
-- **day-006** - Dockerfile for a simple Python script
-- **day-013** - Dockerizing a FastAPI application (Poetry, `EXPOSE`, Uvicorn)
-- **day-025** - Docker Compose with two services (FastAPI + Redis)
-- **day-039** - Redis as a cache (cache-aside pattern with TTL)
-- **day-040** - Integrated review: GitHub user lookup with `requests`, Redis cache-aside and error handling (errors are never cached)
-- **day-045** - Dockerized FastAPI + PostgreSQL with Compose (volumes, healthcheck, env vars)
+- **[day-006](day-006)** - Dockerfile for a simple Python script
+- **[day-013](day-013)** - Dockerizing a FastAPI application (Poetry, `EXPOSE`, Uvicorn)
+- **[day-025](day-025)** - Docker Compose with two services (FastAPI + Redis)
+- **[day-039](day-039)** - Redis as a cache (cache-aside pattern with TTL)
+- **[day-040](day-040)** - Integrated review: GitHub user lookup with `requests`, Redis cache-aside and error handling (errors are never cached)
+- **[day-045](day-045)** - Dockerized FastAPI + PostgreSQL with Compose (volumes, healthcheck, env vars)
 
 ### CI/CD
 
-- **day-058** - Continuous integration with GitHub Actions (running pytest automatically on every push)
+- **[day-058](day-058)** - Continuous integration with GitHub Actions (running pytest automatically on every push)
 
 ## Continuous integration
 
