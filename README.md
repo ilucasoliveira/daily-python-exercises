@@ -95,6 +95,11 @@ The weekly rhythm mixes Python fundamentals with practical back-end tools: sever
 - **day-068** - Stock update and processed-order record in a single database transaction
 - **day-069** - Internal and external Kafka listeners (`KAFKA_ADVERTISED_LISTENERS`) and kafka-ui
 - **day-070** - Stock consumer running as a Compose service through the internal listener (config from env vars, `.dockerignore`, `restart`)
+- **day-071** - Integrated review: the Kafka order pipeline rebuilt from memory (FastAPI producer, idempotent stock consumer, PostgreSQL unique key in a single transaction)
+
+### Logging & Search (ELK Stack)
+
+- **day-072** - Elasticsearch and Kibana in Docker Compose (pinned version, security off for local dev), indexing and searching a document in Dev Tools and Discover
 
 ### Docker
 
@@ -140,6 +145,10 @@ Kafka days start the broker with Docker Compose, then run the producer and consu
 
     docker compose up -d
     python stock_service.py
+
+ELK days start Elasticsearch and Kibana with Docker Compose. Elasticsearch answers on `localhost:9200` and Kibana opens on `localhost:5601`:
+
+    docker compose up -d
 
 ## About
 
